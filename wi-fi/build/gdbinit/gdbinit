@@ -1,0 +1,2 @@
+source D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/gdbinit/symbols
+source D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/gdbinit/connect

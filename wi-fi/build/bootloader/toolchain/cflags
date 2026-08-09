@@ -1,0 +1,6 @@
+"-specs=D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

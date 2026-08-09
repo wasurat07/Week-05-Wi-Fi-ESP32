@@ -1,0 +1,178 @@
+Command: C:\Espressif\tools\python\v6.0.2\venv\Scripts\python.exe C:\esp\v6.0.2\esp-idf\tools/idf_monitor.py -p COM6 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 D:\Projects\Week-05-Wi-Fi-ESP32\wi-fi\build\wi-fi.elf D:\Projects\Week-05-Wi-Fi-ESP32\wi-fi\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\tools\python\v6.0.2\venv\Scripts\python.exe' 'C:\esp\v6.0.2\esp-idf\tools\idf.py'
+ 0, SPIWP:0xee
+clk_drv���� ## Label            Usage          Type ST Offset   Length
+[0;32mI (56) boot:  0 nvs         �ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15820
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug  3 2026 11:40:08[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1a728h (108328) map[0m
+[0;32mI (125) esp_image: segment 1: paddr=0002a750 vaddr=3ffb0000 size=04528h ( 17704) load[0m
+[0;32mI (132) esp_image: segment 2: paddr=0002ec80 vaddr=40080000 size=01398h (  5016) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=86314h (549652) map[0m
+[0;32mI (332) esp_image: segment 4: paddr=000b633c vaddr=40081398 size=14270h ( 82544) load[0m
+[0;32mI (366) esp_image: segment 5: paddr=000ca5b4 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (377) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (377) boot: Disabling RNG early entropy source...[0m
+[0;32mI (388) cpu_start: Multicore app[0m
+[0;32mI (396) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (396) cpu_start: Pro cpu start user code[0m
+[0;32mI (396) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (398) app_init: Application information:[0m
+[0;32mI (402) app_init: Project name:     wi-fi[0m
+[0;32mI (406) app_init: App version:      37de524-dirty[0m
+[0;32mI (410) app_init: Compile time:     Aug  3 2026 11:39:44[0m
+[0;32mI (415) app_init: ELF file SHA256:  30f1338ba...[0m
+[0;32mI (419) app_init: ESP-IDF:          v6.0.2[0m
+[0;32mI (423) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (427) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (431) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (435) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (441) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (446) heap_init: At 3FFB8A40 len 000275C0 (157 KiB): DRAM[0m
+[0;32mI (452) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (457) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (462) heap_init: At 40095608 len 0000A9F8 (42 KiB): IRAM[0m
+[0;32mI (469) spi_flash: detected chip: generic[0m
+[0;32mI (471) spi_flash: flash io: dio[0m
+[0;33mW (474) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (488) main_task: Started on CPU0[0m
+[0;32mI (488) main_task: Calling app_main()[0m
+[0;32mI (488) LAB_HANDSHAKE_IP: [FORENSIC]: Call nvs_flash_init()[0m
+[0;32mI (518) LAB_HANDSHAKE_IP: [FORENSIC]: nvs_flash_init() returned ESP_OK (0x0)[0m
+[0;32mI (518) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_netif_init()[0m
+[0;32mI (518) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_event_loop_create_default()[0m
+[0;32mI (528) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_netif_create_default_wifi_sta()[0m
+[0;32mI (538) LAB_HANDSHAKE_IP: [FORENSIC]: esp_netif_create_default_wifi_sta() returned 0x3ffbddbc[0m
+[0;32mI (538) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_init(&cfg)[0m
+[0;32mI (558) wifi:wifi driver task: 3ffc04a8, prio:23, stack:6656, core=0[0m
+[0;32mI (568) wifi:wifi firmware version: 00ad238[0m
+[0;32mI (568) wifi:wifi certification version: v7.0[0m
+[0;32mI (568) wifi:config NVS flash: enabled[0m
+[0;32mI (568) wifi:config nano formatting: disabled[0m
+[0;32mI (578) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (578) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (588) wifi:Init management short buffer num: 32[0m
+[0;32mI (588) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (588) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (598) wifi:Init static rx buffer num: 10[0m
+[0;32mI (598) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (608) wifi_init: rx ba win: 6[0m
+[0;32mI (608) wifi_init: accept mbox: 6[0m
+[0;32mI (608) wifi_init: tcpip mbox: 32[0m
+[0;32mI (608) wifi_init: udp mbox: 6[0m
+[0;32mI (618) wifi_init: tcp mbox: 6[0m
+[0;32mI (618) wifi_init: tcp tx win: 5760[0m
+[0;32mI (618) wifi_init: tcp rx win: 5760[0m
+[0;32mI (628) wifi_init: tcp mss: 1440[0m
+[0;32mI (628) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (628) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (638) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_event_handler_instance_register(WIFI_EVENT)[0m
+[0;32mI (638) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_event_handler_instance_register(IP_EVENT)[0m
+[0;32mI (648) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_set_mode(WIFI_MODE_STA)[0m
+[0;32mI (658) LAB_HANDSHAKE_IP: ==================================================================[0m
+[0;32mI (668) LAB_HANDSHAKE_IP:   Lab 5.4: 4-Way Handshake & IP Assignment Phase (ESP-IDF Forensic)[0m
+[0;32mI (678) LAB_HANDSHAKE_IP: ==================================================================[0m
+[0;32mI (678) LAB_HANDSHAKE_IP: [0m
+
+[0;32mI (688) LAB_HANDSHAKE_IP: ------------------------------------------------------------------[0m
+[0;32mI (688) LAB_HANDSHAKE_IP: >>> Experiment 5.4.1: Handshake & IP Test - Correct Password[0m
+[0;32mI (698) LAB_HANDSHAKE_IP: ------------------------------------------------------------------[0m
+[0;32mI (708) LAB_HANDSHAKE_IP:   Target SSID    : "vivo V30"[0m
+[0;32mI (718) LAB_HANDSHAKE_IP:   Target Password: "0972377819"[0m
+[0;32mI (718) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_stop()[0m
+[0;32mI (728) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_set_config(WIFI_IF_STA, &wifi_config)[0m
+[0;32mI (758) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_set_config() returned ESP_OK (0x0)[0m
+[0;32mI (758) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_start()[0m
+[0;32mI (758) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+[0;32mI (848) wifi:mode : sta (14:33:5c:0d:d5:4c)[0m
+[0;32mI (848) wifi:enable tsf[0m
+[0;32mI (848) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT ID 43 received[0m
+[0;32mI (848) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_start() returned ESP_OK (0x0)[0m
+[0;32mI (848) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT_STA_START received[0m
+[0;32mI (858) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_connect()[0m
+[0;32mI (868) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_connect() returned ESP_OK (0x0)[0m
+[0;32mI (878) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (888) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (918) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (958) wifi:connected with vivo V30, aid = 5, channel 1, BW20, bssid = 42:fb:8e:b7:c8:e2[0m
+[0;32mI (958) wifi:security: WPA2-PSK, phy: bgn, rssi: -36, cipher(pairwise:0x3, group:0x3), pmf:0[0m
+[0;32mI (978) wifi:pm start, type: 1[0m
+
+[0;32mI (978) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (978) wifi:state: run -> init (0x5a0)[0m
+[0;32mI (978) wifi:pm stop, total sleep time: 0 us / 5797 us[0m
+
+[0;32mI (988) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;32mI (998) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT_STA_CONNECTED received![0m
+[0;32mI (998) LAB_HANDSHAKE_IP:   -> Phase 2 (Auth) & Phase 3 (Assoc) PASSED[0m
+[0;32mI (1008) LAB_HANDSHAKE_IP:   -> Connected SSID  : vivo V30[0m
+[0;32mI (1008) LAB_HANDSHAKE_IP:   -> BSSID           : 42:FB:8E:B7:C8:E2[0m
+[0;32mI (1018) LAB_HANDSHAKE_IP:   -> Channel         : 1[0m
+[0;32mI (1018) LAB_HANDSHAKE_IP:   -> Association ID  : 34680[0m
+[0;32mI (1028) LAB_HANDSHAKE_IP: [FORENSIC]: Entering Phase 4: 4-Way EAPOL Key Exchange...[0m
+[0;32mI (1038) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;33mW (1038) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;33mW (1048) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT_STA_DISCONNECTED received![0m
+[0;33mW (1058) LAB_HANDSHAKE_IP:   -> Target SSID          : vivo V30[0m
+[0;33mW (1058) LAB_HANDSHAKE_IP:   -> Reason Code (Decimal): 5[0m
+[0;33mW (1068) LAB_HANDSHAKE_IP:   -> Reason Code (Hex)    : 0x05[0m
+[0;33mW (1068) LAB_HANDSHAKE_IP:   -> Reason Diagnosis     : WIFI_REASON_ASSOC_TOOMANY (5/17) [Phase 3: AP Max Clients Exceeded][0m
+[0;33mW (1088) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;33mW (1088) LAB_HANDSHAKE_IP: [RESULT]: TEST FAILED - Disconnected during Handshake or Auth.[0m
+[0;32mI (3098) LAB_HANDSHAKE_IP: [0m
+
+[0;32mI (3098) LAB_HANDSHAKE_IP: ------------------------------------------------------------------[0m
+[0;32mI (3098) LAB_HANDSHAKE_IP: >>> Experiment 5.4.2: Handshake Test - Incorrect Password[0m
+[0;32mI (3098) LAB_HANDSHAKE_IP: ------------------------------------------------------------------[0m
+[0;32mI (3108) LAB_HANDSHAKE_IP:   Target SSID    : "vivo V30"[0m
+[0;32mI (3118) LAB_HANDSHAKE_IP:   Target Password: "WRONG_PASSWORD_1234"[0m
+[0;32mI (3118) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_stop()[0m
+[0;32mI (3128) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT ID 3 received[0m
+[0;32mI (3128) wifi:flush txq[0m
+[0;32mI (3138) wifi:stop sw txq[0m
+[0;32mI (3138) wifi:lmac stop hw txq[0m
+[0;32mI (3138) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_set_config(WIFI_IF_STA, &wifi_config)[0m
+[0;32mI (3168) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_set_config() returned ESP_OK (0x0)[0m
+[0;32mI (3168) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_start()[0m
+[0;32mI (3178) wifi:mode : sta (14:33:5c:0d:d5:4c)[0m
+[0;32mI (3178) wifi:enable tsf[0m
+[0;32mI (3178) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_start() returned ESP_OK (0x0)[0m
+[0;32mI (3178) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT_STA_START received[0m
+[0;32mI (3188) LAB_HANDSHAKE_IP: [FORENSIC]: Call esp_wifi_connect()[0m
+[0;32mI (3198) LAB_HANDSHAKE_IP: [FORENSIC]: esp_wifi_connect() returned ESP_OK (0x0)[0m
+[0;32mI (3468) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3478) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3508) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (6528) wifi:state: run -> init (0xf00)[0m
+[0;33mW (6538) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;33mW (6538) LAB_HANDSHAKE_IP: [EVENT FORENSIC]: WIFI_EVENT_STA_DISCONNECTED received![0m
+[0;33mW (6538) LAB_HANDSHAKE_IP:   -> Target SSID          : vivo V30[0m
+[0;33mW (6548) LAB_HANDSHAKE_IP:   -> Reason Code (Decimal): 15[0m
+[0;33mW (6548) LAB_HANDSHAKE_IP:   -> Reason Code (Hex)    : 0x0F[0m
+[0;33mW (6558) LAB_HANDSHAKE_IP:   -> Reason Diagnosis     : WIFI_REASON_4WAY_HANDSHAKE_TIMEOUT (204) [Phase 4: Wrong Password][0m
+[0;33mW (6568) LAB_HANDSHAKE_IP: =======================================================[0m
+[0;33mW (6578) LAB_HANDSHAKE_IP: [RESULT]: TEST FAILED - Disconnected during Handshake or Auth.[0m
+[0;32mI (6578) LAB_HANDSHAKE_IP: ==================================================================[0m
+[0;32mI (6588) LAB_HANDSHAKE_IP:   [Phase 4 & Phase 5 Completed: Wi-Fi Handshake & IP Lab Finished][0m
+[0;32mI (6598) LAB_HANDSHAKE_IP: ==================================================================[0m
+[0;32mI (6608) main_task: Returned from app_main()[0m

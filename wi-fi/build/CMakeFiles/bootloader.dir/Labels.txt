@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/CMakeFiles/bootloader
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/CMakeFiles/bootloader.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/CMakeFiles/bootloader-complete.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Projects/Week-05-Wi-Fi-ESP32/wi-fi/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
